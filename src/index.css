@@ -1,4 +1,5 @@
-ul {
+ul,
+tr {
   padding: 0;
   margin: 0;
 }

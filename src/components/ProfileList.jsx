@@ -5,15 +5,21 @@ export const ProfileList = ({ stats: { followers, views, likes } }) => {
     <div className={css.profileList}>
       <li>
         <span>Followers</span>
-        <span>{followers}</span>
+        <span>
+          <b>{followers}</b>
+        </span>
       </li>
       <li>
         <span>Views</span>
-        <span>{views}</span>
+        <span>
+          <b>{views}</b>
+        </span>
       </li>
       <li>
         <span>Likes</span>
-        <span>{likes}</span>
+        <span>
+          <b>{likes}</b>
+        </span>
       </li>
     </div>
   );
